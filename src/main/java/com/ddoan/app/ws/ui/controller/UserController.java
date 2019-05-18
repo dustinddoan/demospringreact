@@ -13,7 +13,7 @@ public class UserController {
 	@GetMapping
 	public User getUser() {
 		User user = new User();
-		user.setFirstName("Dustin");
+		user.setFirstName("Dustin D");
 		user.setLastName("Doan");
 		
 		return user;
