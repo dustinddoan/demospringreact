@@ -4,9 +4,6 @@ import "./App.css";
 import User from "./User";
 
 function App() {
-	console.log(process.env.NODE_ENV);
-	console.log(process.env.REACT_APP_PRODUCTION_URL);
-	console.log(process.env.REACT_APP_DEVELOPMENT_URL);
 	return (
 		<div className="App">
 			<header className="App-header">
